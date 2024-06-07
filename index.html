@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Brick Breaker Game</title>
+    <style>
+        canvas {
+            background: black;
+            display: block;
+            margin: 20px auto;
+        }
+
+        button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <canvas id="brickGame"></canvas>
+    <button onclick="startGame()">Start Game</button>
+    <button onclick="togglePause()">Pause/Resume</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
